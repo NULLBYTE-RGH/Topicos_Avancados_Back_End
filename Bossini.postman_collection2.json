@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "4c4c8b4f-b77a-44e3-8d46-062af55cda5c",
+		"name": "Bossini",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastro",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "hahahahahahahah",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"ID\": \"765756\",\r\n  \"classificacao\": \"0\",\r\n  \"comentario\": \"Horrivel\",\r\n  \"informacoes\": \"casaco\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://4elljrqya2.execute-api.us-east-1.amazonaws.com/dev/feedback",
+					"protocol": "https",
+					"host": [
+						"4elljrqya2",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"feedback"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "ahahhahahahhaha",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://4elljrqya2.execute-api.us-east-1.amazonaws.com/dev/feedback",
+					"protocol": "https",
+					"host": [
+						"4elljrqya2",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"feedback"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
