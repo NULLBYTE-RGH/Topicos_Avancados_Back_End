@@ -6,7 +6,7 @@ function App() {
   const [feedback, setFeedback] = useState({ ID: '', classificacao: '', comentario: '', informacoes: '' });
   const [feedbacks, setFeedbacks] = useState([]);
   const [backendURL, setBackendURL] = useState('');
-  const [apiKey, setApiKey] = useState('YKA4hOolXM7tlqLo1cBow3kEPXJQVxWP287RK6YA');
+  const [apiKey, setApiKey] = useState('');
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
